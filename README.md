@@ -24,21 +24,17 @@ This project involves developing a state-of-the-art conversational chatbot lever
 
 ### 📂 **Setupe Instruction**
 1. **Clone the Repository**
-
-  git clone <https://github.com/MdImranAkhtar/Conversational-Chatbot-Using-Gemini/edit/main/README.md>
+   git clone <https://github.com/MdImranAkhtar/Conversational-Chatbot-Using-Gemini/edit/main/README.md>
 
 2. **Create Virtual Environment**
-
-  conda create -p env python=3.10 -y
+   conda create -p env python=3.10 -y
 
 3. **Install Dependencies**
+   pip install -r requirements.txt
 
-  pip install -r requirements.txt
-
-4. **Environment Configuration Create a .env file in the root directory:**
-
-  GOOGLE_API_KEY =your_api_key_here
+4. **Environment Configuration:**
+   Create a `.env` file in the root directory:
+   GOOGLE_API_KEY=your_api_key_here
 
 5. **Run the Application**
-
-  streamlit run app.py
+   streamlit run app.py
